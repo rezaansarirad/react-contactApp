@@ -4,7 +4,7 @@ import { v4 } from "uuid";
 import ContactsList from "./ContactsList";
 import inputs from "../constants/inputs";
 
-import styles from "./contacts.module.scss";
+import styles from "./Contacts.module.scss";
 
 function Contacts() {
   const [alert, setAlert] = useState("");
